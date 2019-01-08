@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block body %}
+<body id="cont">
+
+  <header>
+    <ul>
+      {% include 'nav.html' %}
+    </ul>
+  </header>
+
+  <main>
+    <h2>Contact</h2>
+
+    {% for message in form.name.errors %}
+        <div class="flash">{{ message }}</div>
+      {% endfor %}
+
+      {% for message in form.email.errors %}
+        <div class="flash">{{ message }}</div>
+      {% endfor %}
+
+      {% for message in form.message.errors %}
+        <div class="flash">{{ message }}</div>
+      {% endfor %}
+
+    <form class="message" action="" method=post>
+      {{ form.hidden_tag() }}
+
+      {{ form.name.label }}
+      {{ form.name }}
+      <br>
+
+      {{ form.email.label }}
+      {{ form.email }}
+      <br>
+
+      {{ form.telephone.label }}
+      {{ form.telephone }}
+      <br>
+
+      {{ form.message.label }}
+      {{ form.message }}
+      <br>
+
+      {{ form.submit }}
+    </form>
+  </main>
+  </body>
+{% endblock %}

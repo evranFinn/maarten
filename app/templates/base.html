@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if title %} {{ title}}</title>
+         {% else %}
+         <title>{{ _('Maarten van Norden, composer and musician') }}</title>
+         {% endif %}
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Vaani:700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<div class="message">
+  {% block header %}{% endblock %}
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+  <ul>
+    {% for message in messages %}
+    <li>{{ message }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% endwith %}
+</div>
+{% block body %}{% endblock %}
+</html>

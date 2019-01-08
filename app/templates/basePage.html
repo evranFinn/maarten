@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+<body>
+  <header>
+    {% block header %}
+
+    <nav>
+      <ul class="nav">
+          {% include 'nav.html' %}
+      </ul>
+{% endblock %}
+    </nav>
+    </header>
+<aside class="aside1">
+    {% block aside1 %} {% endblock %}
+  </aside>
+  <aside class="aside1">
+    {% block aside2 %} {% endblock %}
+  </aside>
+<main>
+    {% block main %}{% endblock %}
+  </main>
+<aside class="aside3">
+    {% block aside3 %}{% endblock %}
+  </aside>
+  <aside class="aside4">
+    {% block aside4 %}{% endblock %}
+  </aside>
+  <footer>
+
+    <ul class="navContact">
+      {% block footer %}
+        <ul class="navContact">
+    {% include 'navContact.html' %}
+      </ul>
+    {% endblock %}
+  </ul>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  position: relative; }
+
+header, main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 300px 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 40px; }
+
+.frontMenu {
+  position: relative;
+  background-color: transparent;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 11; }
+
+.frontmenu img {
+  max-width: 50%; }
+
+.frontMenu ul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+.maartenComponeert {
+  z-index: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 13; }
+
+.pageNav {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 13; }
+
+article {
+  margin-top: 20px;
+  padding: 5px; }
+
+h1 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 11; }
+
+.article1 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 11; }
+
+.aside1 {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 11;
+  z-index: -10; }
+
+.article2 {
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 4;
+  grid-column-end: 11; }
+
+.aside2 {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 4;
+  grid-column-end: 11; }
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  padding-right: 20px;
+  margin-top: 20px; }
+
+.sidePic1 {
+  width: 75%;
+  height: auto; }
+
+.sidePic2 {
+  width: 75%;
+  height: auto; }
+
+p {
+  font-family: Verdana, Arial;
+  line-height: 1.2; }
+
+header {
+  background: white;
+  margin-bottom: 24px; }
+
+.pageNav {
+  text-align: right; }
+
+.pageNav li {
+  height: 30px;
+  border-bottom: 1px solid black; }
+
+p {
+  margin-bottom: 18px; }
+
+#maar li {
+  height: 72px;
+  background: transparent;
+  text-align: right;
+  font-size: 30px;
+  padding-right: 15px;
+  padding-top: 5px; }
+
+.frontBackground {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+  background: transparent; }
+
+.frontBackground p {
+  height: 72px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-bottom: 0; }
+
+.frontBackground p:last-child {
+  border-bottom: 1px solid black; }
+
+.pageNav a {
+  padding-right: 15px; }
+
+footer {
+  width: 100%;
+  height: 30px;
+  border-top: solid black 1px;
+  background-color: white;
+  margin-top: 10px; }
+
+.footerItem {
+  float: right; }
+
+h1, h2 {
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 8px; }
+
+h1 {
+  font-size: 25px;
+  color: #930; }
+
+h2 {
+  font-size: 18px; }
+
+aside {
+  margin-top: 18px; }
+
+.container-audio {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  background-color: #33ccff;
+  color: #3333cc; }
+
+li {
+  list-style: none; }
+
+.navItem {
+  height: 30px;
+  vertical-align: sub;
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  z-index: 10; }
+
+.navItem:hover {
+  color: #930 !important; }
+
+#maar .maarLink, #comp .compLink, #biog .biogLink, #even .evenLink, #publ .publLink {
+  color: #930 !important; }
+
+#even .pageNav {
+  background-image: url("../img/header-events.jpg"); }
+
+@media only screen and (min-height: 480px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%; }
+
+  main {
+    margin-top: 240px; } }
+@media only screen and (min-width: 800px) {
+  h1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 8; }
+
+  .article1 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 8; }
+
+  .aside1 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 9;
+    grid-column-end: 13; }
+
+  .article2 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 8; }
+
+  .aside2 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 9;
+    grid-column-end: 13; }
+
+  .sidePic1 {
+    width: 100%;
+    height: auto; }
+
+  .sidePic2 {
+    width: 100%;
+    height: auto; } }
+
+/*# sourceMappingURL=app.css.map */

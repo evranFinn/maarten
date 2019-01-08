@@ -1,0 +1,10 @@
+bestanden/
+__pycache__/
+sass/
+venv/
+.git/
+.sass-cache/
+inlog.txt
+messages.pot
+ReadMe.odt
+

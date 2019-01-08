@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block body %}
+
+<body id="comp">
+
+  <header>
+    <img class="maartenComponeert" src="../static/img/maarten-componeert.png" alt="Maarten componeert">
+    <ul class="pageNav">
+      {% include 'nav.html' %}
+
+    </ul>
+  </header>
+
+  <main>
+    <article class="article1">
+      <div class="container-audio">
+        <audio controls>
+          <source src="../static/music/Arohayani.ogg" type="audio/ogg">
+          <source src="../static/music/Arohayani.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <h2>Arohayani {{_('(computerversion)')}}</h2>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <div class="footerItem">
+      {% include 'navContact.html' %}
+    </div>
+  </footer>
+</body>
+{% endblock %}

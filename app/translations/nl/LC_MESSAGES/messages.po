@@ -1,0 +1,121 @@
+# Dutch translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-11 11:35+0100\n"
+"PO-Revision-Date: 2018-09-15 10:35+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app/email.py:22
+msgid "[Microblog] Reset Your Password"
+msgstr ""
+
+#: app/forms.py:8
+msgid "Name"
+msgstr "Naam"
+
+#: app/forms.py:8
+msgid "Please enter your name."
+msgstr "Vul alstublieft uw naam in"
+
+#: app/forms.py:9
+msgid "Email"
+msgstr "E-mail"
+
+#: app/forms.py:9
+msgid "Please enter your email address."
+msgstr "Vul alstublieft uw e-mailadres in"
+
+#: app/forms.py:9
+msgid "Please enter a valid email address."
+msgstr "Vul alstublieft een geldig e-mailadres in"
+
+#: app/forms.py:10
+msgid "Phone Number, optional"
+msgstr "Telefoonnummer, optioneel"
+
+#: app/forms.py:11
+msgid "Message"
+msgstr "Boodschap"
+
+#: app/forms.py:11
+msgid "Please enter a message"
+msgstr "Vul alstublieft een boodschap in"
+
+#: app/forms.py:12
+msgid "Send"
+msgstr "Verstuur"
+
+#: app/routes.py:24 app/templates/base.html:8
+msgid "Maarten van Norden, composer and musician"
+msgstr "Maarten van Norden, componist en  musicus"
+
+#: app/routes.py:28
+msgid "Biography Maarten van Norden"
+msgstr "Biografie Maarten van Norden"
+
+#: app/routes.py:32
+msgid "Maarten van Norden, compositions"
+msgstr "Maarten van Norden, composities"
+
+#: app/routes.py:36
+msgid "Maarten van Norden, publications"
+msgstr "Maarten van Norden, publicaties"
+
+#: app/routes.py:40
+msgid "events Maarten van Norden"
+msgstr ""
+
+#: app/routes.py:53
+msgid "Your message is sent. I will contact you soon."
+msgstr "Uw boodschap is verzonden. Ik neem binnenkort contact met u op"
+
+#: app/templates/biografie.html:12 app/templates/publicatie.html:12
+msgid "Interesting information about Maarten"
+msgstr "Interessante informatie over Maarten"
+
+#: app/templates/compositie.html:21
+msgid "(computerversion)"
+msgstr "(computerversie)"
+
+#: app/templates/event.html:15
+msgid "Preludium for piano"
+msgstr "Prelude voor piano"
+
+#: app/templates/nav.html:2
+msgid "BIOGRAPHY"
+msgstr "BIOGRAFIE"
+
+#: app/templates/nav.html:3
+msgid "COMPOSITIONS"
+msgstr "COMPOSITIES"
+
+#: app/templates/nav.html:4
+msgid "PUBLICATIONS"
+msgstr "PUBLICATIES"
+
+#: app/templates/nav.html:5
+msgid "EVENTS"
+msgstr ""
+
+#: app/templates/navContact.html:1
+msgid "CONTACT"
+msgstr ""
+
+#~ msgid "Interesting information about Maarten"
+#~ msgstr "Interessante informatie over Maarten"
+
+#~ msgid "Hi, visitor of Maartens site!"
+#~ msgstr "Dag, bezoeker van Maartens site!"
